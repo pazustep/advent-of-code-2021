@@ -11,8 +11,9 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation(kotlin("reflect"))
     testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
-    testImplementation("com.willowtreeapps.assertk:assertk-jvm:0.24")
+    testImplementation("com.willowtreeapps.assertk:assertk-jvm:0.25")
 }
 
 tasks.named<Test>("test") {
